@@ -19,3 +19,5 @@ function pb.SayPreach(preach, waitTime)
     WL.typeTog(false)
 end
 --#endregion
+
+getgenv().pb = pb
