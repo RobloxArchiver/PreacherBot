@@ -1,4 +1,6 @@
-local pb = {}
+getgenv().pb = {}
+
+-- Fix by Server Nood, I fraantically dmd them xD
 
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/RobloxArchiver/WrapperLib/main/games/church/Remote.lua"))()
 
@@ -17,5 +19,3 @@ function pb.SayPreach(preach, waitTime)
     WL.typeTog(false)
 end
 --#endregion
-
-return pb
