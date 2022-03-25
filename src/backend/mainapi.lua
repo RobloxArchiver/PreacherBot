@@ -1,4 +1,4 @@
-getgenv().pb = {}
+local pb = {}
 
 -- Fix by Server Nood, I fraantically dmd them xD
 
