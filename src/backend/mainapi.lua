@@ -17,6 +17,7 @@ function pb.SayPreach(preach, waitTime)
     SayMessage(preach)
 
     WL.typeTog(false)
+    task.wait(1)
 end
 --#endregion
 
