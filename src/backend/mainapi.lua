@@ -2,7 +2,7 @@ getgenv().pb = {}
 
 -- Fix by Server Nood, I fraantically dmd them xD
 
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/RobloxArchiver/WrapperLib/main/games/church/Remote.lua"))()
+local WL = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/RobloxArchiver/WrapperLib/main/games/church/Remote.lua"))()
 
 function SayMessage(msg)
     game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(msg, "All")
