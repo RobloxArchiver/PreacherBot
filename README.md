@@ -3,6 +3,10 @@
 # Note
 It is also basically a "they WL exist" thing!
 
+
+# `DEPRECATION NOTICE`
+Main library was deleted. Rewrite possible in the future!
+
 # The ONE function
 ### `pb.SayPreach`
 Generally says whatever but ok. 
